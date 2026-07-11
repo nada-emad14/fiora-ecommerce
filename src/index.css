@@ -1,0 +1,74 @@
+:root {
+  font-family: Inter, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #1f1c29;
+  background: #f5f0eb;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --accent: #7a5cff;
+  --accent-strong: #5b3de3;
+  --bg: #f5f0eb;
+  --panel: #ffffff;
+  --panel-soft: #f6f1ec;
+  --text-main: #1f1c29;
+  --muted: #6a6478;
+  --border: #e7dee8;
+  --shadow: 0 20px 45px rgba(44, 34, 71, 0.08);
+}
+
+:root[data-theme='dark'] {
+  color: #f7f4ff;
+  background: #100d17;
+  --accent: #9f8cff;
+  --accent-strong: #b7a9ff;
+  --bg: #100d17;
+  --panel: #171421;
+  --panel-soft: #221f2f;
+  --text-main: #f7f4ff;
+  --muted: #b1abc2;
+  --border: #2f2a3c;
+  --shadow: 0 20px 45px rgba(5, 4, 10, 0.4);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--text-main);
+}
+
+#root {
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
