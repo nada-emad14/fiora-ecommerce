@@ -20,7 +20,7 @@ const Navbar = () => {
         <div className="flix">
           <div className="topbar-logo">
             <img
-              src="../../src/assets/images/FIORA.png"
+              src="/images/FIORA.png"
               className="navLogo"
               alt="FIORA Logo"
             />
